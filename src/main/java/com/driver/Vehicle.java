@@ -4,8 +4,6 @@ public class Vehicle {
 
     private String name;
 
-
-
     private int currentSpeed;
     private int currentDirection;
 
@@ -13,6 +11,13 @@ public class Vehicle {
        this.name = name;
        this.currentSpeed = 0;
        this.currentDirection = 0;
+    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
     public int getCurrentSpeed() {
         return currentSpeed;
